@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: #f9faf8; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  color: #f9faf8;
+  background-color: #1f2937;
+  display: flex;
+  flex-shrink: inherit;
+  justify-content: space-between;
+  padding: 20px 780px 50px 780px;
+}
+
+.right-links {
+  font-size: 18px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-item {
+  padding: 0px 10px;
+}
+
+.hero {
+  height: 300px;
+  color: #f9faf8;
+  background-color: #1f2937;
+  display: flex;
+  padding: 0 520px 50px 520px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  font-style: extra-bold;
+  color: #f9faf8;
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+}
+.hero-text-item {
+  width: 380px;
+  padding-bottom: 10px;
+}
+
+.hero-text p {
+  color: #e5e7eb;
+}
+
+.hero-image {
+  padding: 100px 100px;
+  margin-left: 200px;
+  background-color: grey;
+}
+
+.button {
+  color: #f9faf8;
+  text-decoration: none;
+  font-style: extra-bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+}
+.content {
+  font-size: 22px;
+  height: 430px;
+  /* border: red 5px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.content-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content-box {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  font-size: 18px;
+  color: grey;
+  text-align: center;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: rgb(23, 115, 243) 4px solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.quote {
+  height: 300px;
+
+  background-color: #e5e7eb;
+  font: #1f2937;
+  font-size: 30px;
+  font-weight: 100;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-text {
+  width: 700px;
+}
+
+.quote-attribution {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 500px;
+}
+
+.footer {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-bar {
+  color: #f9faf8;
+  width: 900px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 37px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-bar a {
+  border: #f9faf8 1px solid;
+}
